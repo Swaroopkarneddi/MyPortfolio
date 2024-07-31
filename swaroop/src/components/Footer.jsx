@@ -5,7 +5,7 @@ import LinkedInIcon from "@mui/icons-material/LinkedIn";
 function Footer() {
   return (
     <div>
-      <footer class="site-footer">
+      <footer class="site-footer ">
         <div class="container">
           <div class="row">
             <div class="col-sm-12 col-md-6">
