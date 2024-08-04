@@ -1,0 +1,24 @@
+.main_body {
+    height: 160vh;
+    width: 100%;
+}
+
+.main_body1 {
+    margin-top: 10px;
+    width: auto;
+    padding: 20px;
+    height: 80vh;
+    background-color: rgba(127, 255, 212, 0.381);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.main_body2 {
+    margin-top: 10px;
+    width: auto;
+    padding: 20px;
+    height: 80vh;
+    background-color: rgba(127, 255, 212, 0.31);
+    margin-left: 40px;
+    margin-right: 40px;
+}
