@@ -10,15 +10,29 @@
     width: auto;
     padding: 20px;
     height: 80vh;
-    background-color: rgba(127, 255, 212, 0.381);
     margin-left: 40px;
     margin-right: 40px;
     font-family: "Roboto Mono", monospace !important;
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
-    font-size: 2rem;
+    font-size: 2rem !important;
     display: flex;
+}
+
+.main_body1_left {
+    flex: 0.6;
+    font-size: 4rem !important;
+    color: white;
+    display: flex;
+
+    /* padding-top: 40px; */
+    align-items: center;
+
+}
+
+.main_body1_left>div>.my_name {
+    text-decoration: underline;
 }
 
 .wave {
@@ -27,6 +41,17 @@
     animation-iteration-count: infinite;
     transform-origin: 70% 70%;
     display: inline-block;
+}
+
+.main_body1_right {
+    flex: 0.4;
+}
+
+.main_body1_right>img {
+    width: 100%;
+    height: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 @keyframes wave-animation {
@@ -71,4 +96,14 @@
     background-color: rgba(127, 255, 212, 0.31);
     margin-left: 40px;
     margin-right: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main_body2_top {
+    flex: 0.7;
+}
+
+.main_body2_bottom {
+    flex: 0.3;
 }
