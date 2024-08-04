@@ -7,14 +7,11 @@
     list-style: none;
 }
 
+
+
 @import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
 
-body {
-    margin: 0;
-    /* font-family: "Euclid Circular A", "Poppins"; */
-    /* color: #ddfdfd; */
-    /* background: #050808; */
-}
+
 
 body {
     background: -moz-linear-gradient(45deg, #02e1ba 0%, #26c9f2 29%, #d911f2 66%, #ffa079 100%);
@@ -257,3 +254,54 @@ nav {
 }
 
 /*  */
+
+.footer {
+    /* height: fit-content; */
+    height: fit-content;
+    color: #fff;
+    position: relative;
+}
+
+.footer_wave_svg {
+    display: block;
+    height: 100%;
+    position: relative;
+    /* top: -1px; */
+    bottom: 0;
+    width: 100%;
+}
+
+/* .footer_wave_path {
+    fill: #fffff2;
+} */
+
+.footer_content {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    /* padding: 40px 15px 450px; */
+    position: absolute;
+    top: 80%;
+    color: #00FF00;
+    z-index: 1;
+}
+
+footer {
+    position: relative;
+    bottom: 0;
+    margin: 0%;
+    padding: 0%;
+    background-color: #0b002800;
+    color: whitesmoke;
+    /* height: 10vh; */
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.namelink {
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: aqua;
+}
