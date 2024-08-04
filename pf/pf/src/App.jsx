@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Headder />
-      {/* <MainBody /> */}
+      <MainBody />
       {/* <About /> */}
       {/* <Projects /> */}
       {/* <Resume /> */}
