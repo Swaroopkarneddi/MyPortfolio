@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
 
 .main_body {
-    height: 160vh;
+    height: fit-content;
     width: 100%;
 }
 
@@ -89,21 +89,97 @@
 }
 
 .main_body2 {
-    margin-top: 10px;
+    margin-top: 10rem;
+    margin-bottom: 10rm;
     width: auto;
-    padding: 20px;
+    padding: 20px 40px;
     height: 80vh;
-    background-color: rgba(127, 255, 212, 0.31);
+    /* background-color: rgba(127, 255, 212, 0.31); */
     margin-left: 40px;
     margin-right: 40px;
     display: flex;
     flex-direction: column;
+    font-family: "Roboto Mono", monospace !important;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    color: white;
+    font-style: normal;
 }
 
 .main_body2_top {
     flex: 0.7;
+    display: flex;
 }
+
+
+
+.main_body2_top_left {
+    flex: 0.25;
+    padding: 20px;
+    display: flex;
+}
+
+.main_body2_top_left>img {
+    margin: auto;
+    width: 85%;
+    height: 85%;
+    border-radius: 100%;
+}
+
+.main_body2_top_right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    flex: 0.75;
+    font-size: 1.5rem !important;
+}
+
+.main_body2_top_right>h1 {
+    font-size: 3rem !important;
+    margin-bottom: 2rem;
+}
+
+/* .main_body2_top_right>h1>span {
+    color: black !important;
+} */
+
+.main_body2_top_right>div {
+    width: 100%;
+    padding-left: 0rem;
+    margin-bottom: 1rem;
+}
+
+/* .main_body2_top_right>div>p>span {
+    color: black !important;
+    font-weight: bold !important;
+} */
+
+
 
 .main_body2_bottom {
     flex: 0.3;
+    text-align: center;
+}
+
+.main_body2_bottom_txt {
+    font-size: 3rem !important;
+    margin-bottom: 0.5rem;
+}
+
+.main_body2_bottom_asd {
+    font-size: 1rem !important;
+    margin-bottom: 0.5rem;
+}
+
+.soc_icn_icn {
+    height: fit-content !important;
+    width: fit-content !important;
+    color: whitesmoke !important;
+}
+
+.soc_icn_icn_icn {
+    font-size: 3rem !important;
 }
