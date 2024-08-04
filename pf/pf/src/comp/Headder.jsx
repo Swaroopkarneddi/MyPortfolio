@@ -1,30 +1,39 @@
 import React from "react";
 import "./Headder.css";
+import { Link } from "react-router-dom";
 function Headder() {
   return (
-    <header class="header">
+    <header className="header">
       <nav>
-        <div class="logo">
+        <div className="logo">
           <a href="index.html">
             Swaroop.<span>Karneddi</span>
           </a>
         </div>
         <input type="checkbox" id="menu-toggle" />
-        <label for="menu-toggle" class="menu-icon">
+        <label htmlFor="menu-toggle" className="menu-icon">
           &#9776;
         </label>
-        <ul class="menu">
+        <ul className="menu">
           <li>
-            <a href="#">Home</a>
+            <Link to={"/"}>Home</Link>
           </li>
           <li>
-            <a href="#">Skills</a>
+            <Link to={"/about"}>Skills</Link>
           </li>
           <li>
-            <a href="#">Projects</a>
+            <Link to={"/resume"}>Resume</Link>
           </li>
           <li>
-            <a href="#">Connect</a>
+            <Link to={"/projects"}>Projects</Link>
+          </li>
+          <li>
+            <a
+              target="blank"
+              href="https://github.com/Swaroopkarneddi?tab=repositories"
+            >
+              git
+            </a>
           </li>
         </ul>
       </nav>

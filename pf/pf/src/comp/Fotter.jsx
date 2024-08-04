@@ -34,7 +34,11 @@ function Fotter() {
           &copy;2024 India, All Rights Reserved by &nbsp;
           <FontAwesomeIcon icon={faGithub} style={{ color: "#32e10e" }} />
           &nbsp;
-          <a href="https://github.com/SwaroopKarneddi" className="namelink">
+          <a
+            target="blank"
+            href="https://github.com/SwaroopKarneddi"
+            className="namelink"
+          >
             SwaroopKarneddi
           </a>
         </footer>
