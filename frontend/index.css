@@ -25,12 +25,14 @@ body {
     -moz-animation: Gradient 15s ease infinite;
     animation: Gradient 15s ease infinite;
     /*min-height: calc(100vh - 2rem);*/
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* align-items: stretch; */
-    /* justify-content: space-evenly; */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-evenly;
+    /* min-height: 100%; */
     /* overflow: hidden; */
-    /* position: relative; */
+    height: fit-content;
+    position: relative;
 }
 
 body::before,
@@ -38,7 +40,8 @@ body::after {
     content: "";
     width: 70vmax;
     height: 70vmax;
-    position: absolute;
+    /* position: absolute; */
+    position: fixed;
     background: rgba(255, 255, 255, 0.07);
     left: -20vmin;
     top: -20vmin;
@@ -52,13 +55,16 @@ body::after {
 body::after {
     width: 70vmin;
     height: 70vmin;
+    position: fixed;
     left: auto;
     right: -10vmin;
+    /* right: 10vmin; */
     top: auto;
-    bottom: 0;
+    bottom: auto;
     animation: morph 10s linear infinite alternate, spin 26s linear infinite reverse;
     transform-origin: 20% 20%;
 }
+
 
 @-webkit-keyframes Gradient {
     0% {
@@ -118,72 +124,7 @@ body::after {
     }
 }
 
-.st0 {
-    display: none;
-}
 
-.st1 {
-    display: inline;
-}
-
-.st2 {
-    opacity: 0.29;
-}
-
-.st3 {
-    fill: #FFFFFF;
-}
-
-.st4 {
-    clip-path: url(#SVGID_2_);
-    fill: #FFFFFF;
-}
-
-.st5 {
-    clip-path: url(#SVGID_4_);
-}
-
-.st6 {
-    clip-path: url(#SVGID_6_);
-}
-
-.st7 {
-    clip-path: url(#SVGID_8_);
-}
-
-.st8 {
-    clip-path: url(#SVGID_10_);
-}
-
-.st9 {
-    fill: none;
-}
-
-.st10 {
-    clip-path: url(#SVGID_12_);
-}
-
-.st11 {
-    opacity: 0.7;
-}
-
-.st12 {
-    clip-path: url(#SVGID_14_);
-}
-
-.st13 {
-    opacity: 0.2;
-}
-
-.st14 {
-    clip-path: url(#SVGID_16_);
-}
-
-.st15 {
-    opacity: 0.3;
-    fill: #FFFFFF;
-    enable-background: new;
-}
 
 .header {
     position: sticky;
@@ -311,7 +252,7 @@ nav {
 }
 
 .test {
-    height: 100vh;
+    height: 80vh;
     width: 100%;
 }
 
