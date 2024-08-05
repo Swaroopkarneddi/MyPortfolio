@@ -193,6 +193,8 @@
         font-size: 2rem !important;
         display: flex;
         flex-direction: column;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .main_body1_left {
@@ -226,11 +228,15 @@
 
     .main_body2 {
         height: fit-content;
+        padding: 20px 10px;
+        margin-left: 10px;
+        margin-right: 10px;
     }
 
     .main_body2_top {
         /* flex: 0.7; */
         height: fit-content;
+
         display: flex;
         flex-direction: column-reverse;
     }
