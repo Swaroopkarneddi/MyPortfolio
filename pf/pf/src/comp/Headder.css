@@ -7,7 +7,6 @@
     /* background-color: #15141800; */
     /* From https://css.glass */
     background: rgba(255, 255, 255, 0.16);
-    /* border-radius: 16px; */
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(6.3px);
     -webkit-backdrop-filter: blur(6.3px);
@@ -111,7 +110,12 @@ nav {
         transform: scale(1, 0);
         transform-origin: top;
         transition: transform 0.3s ease-in-out;
-        box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+        box-shadow: rgba(199, 109, 109, 0.15) 1.95px 1.95px 2.6px;
+        background: rgba(255, 255, 255, 0.16);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(6.3px);
+        -webkit-backdrop-filter: blur(6.3px);
+        border: 1px solid rgba(255, 255, 255, 0.01);
     }
 
     .menu a {
