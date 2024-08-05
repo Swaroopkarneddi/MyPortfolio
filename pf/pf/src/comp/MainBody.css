@@ -93,7 +93,8 @@
     margin-bottom: 10rm;
     width: auto;
     padding: 20px 40px;
-    height: 80vh;
+    /* height: 80vh; */
+    height: fit-content;
     /* background-color: rgba(127, 255, 212, 0.31); */
     margin-left: 40px;
     margin-right: 40px;
@@ -205,17 +206,9 @@
 
     }
 
-    .main_body1_left>div>.my_name {
-        text-decoration: underline;
-    }
 
-    .wave {
-        animation-name: wave-animation;
-        animation-duration: 2.5s;
-        animation-iteration-count: infinite;
-        transform-origin: 70% 70%;
-        display: inline-block;
-    }
+
+
 
     .main_body1_right {
         height: 200px !important;
@@ -229,5 +222,90 @@
         margin-bottom: 1px;
         margin-left: auto;
         margin-right: auto;
+    }
+
+    .main_body2 {
+        height: fit-content;
+    }
+
+    .main_body2_top {
+        /* flex: 0.7; */
+        height: fit-content;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+
+
+    .main_body2_top_left {
+        /* flex: 0.25; */
+
+        padding: 20px;
+        display: flex;
+    }
+
+    .main_body2_top_left>img {
+        margin: auto;
+        width: 55%;
+        height: 55%;
+        border-radius: 100%;
+    }
+
+    .main_body2_top_right {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        flex: 0.75;
+        font-size: 1.5rem !important;
+    }
+
+    .main_body2_top_right>h1 {
+        font-size: 3rem !important;
+        margin-bottom: 2rem;
+    }
+
+    /* .main_body2_top_right>h1>span {
+        color: black !important;
+    } */
+
+    .main_body2_top_right>div {
+        width: 100%;
+        padding-left: 0rem;
+        margin-bottom: 1rem;
+    }
+
+    /* .main_body2_top_right>div>p>span {
+        color: black !important;
+        font-weight: bold !important;
+    } */
+
+
+
+    .main_body2_bottom {
+        flex: 0.3;
+        text-align: center;
+    }
+
+    .main_body2_bottom_txt {
+        font-size: 3rem !important;
+        margin-bottom: 0.5rem;
+    }
+
+    .main_body2_bottom_asd {
+        font-size: 1rem !important;
+        margin-bottom: 0.5rem;
+    }
+
+    .soc_icn_icn {
+        height: fit-content !important;
+        width: fit-content !important;
+        color: whitesmoke !important;
+    }
+
+    .soc_icn_icn_icn {
+        font-size: 3rem !important;
     }
 }
