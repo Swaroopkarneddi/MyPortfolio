@@ -31,7 +31,7 @@ function Fotter() {
 
       <div className="footer_content">
         <footer>
-          &copy;2024 India, All Rights Reserved by &nbsp;
+          &copy;2024 India, Designed and Created by &nbsp;
           <FontAwesomeIcon icon={faGithub} style={{ color: "#32e10e" }} />
           &nbsp;
           <a
