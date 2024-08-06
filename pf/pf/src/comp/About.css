@@ -34,6 +34,18 @@
 .part1_left>p {
     font-size: 1.5rem;
     margin-left: 2rem;
+    padding: 10px;
+}
+
+.part1_left_c {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+.part1_left_c>span {
+    font-size: 1rem;
+    text-align: right;
 }
 
 .part1_right {
@@ -48,9 +60,34 @@
 }
 
 .part2 {
-    height: 30vh;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    text-align: center;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem;
 }
 
-.part3 {
-    height: 30vh;
+.skill_set {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
 }
+
+.skill_set_skill {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 200px;
+    border: solid 5px black;
+    margin: 1rem;
+    /* margin-left: 2rem;
+    margin-top: 2rem; */
+}
+
+/* .part3 {
+    height: 30vh;
+} */
