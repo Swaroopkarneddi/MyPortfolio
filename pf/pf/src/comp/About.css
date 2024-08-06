@@ -1,0 +1,50 @@
+.about {
+    /* height: fit-content; */
+    height: fit-content;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.part1 {
+    height: fit-content;
+    display: flex;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    align-items: center;
+}
+
+.part1_left {
+    flex: 0.6;
+    display: flex;
+    flex-direction: column;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+.part1_left>h1 {
+    text-align: center;
+}
+
+.part1_left>p {
+    font-size: 1.4rem;
+}
+
+.part1_right {
+    flex: 0.4;
+    display: flex;
+}
+
+.part1_right>img {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+}
+
+.part2 {
+    height: 30vh;
+}
+
+.part3 {
+    height: 30vh;
+}
