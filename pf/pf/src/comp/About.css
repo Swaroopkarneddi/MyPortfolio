@@ -69,6 +69,13 @@
     padding: 3rem;
 }
 
+.part2>h1 {
+    margin-bottom: 3rem;
+    color: whitesmoke;
+    font-size: 3.3rem !important;
+    /* font-weight: bolder !important; */
+}
+
 .skill_set {
     display: flex;
     flex-wrap: wrap;
@@ -80,12 +87,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 300px;
-    height: 200px;
-    border: solid 5px black;
+    width: 230px;
+    height: 150px;
+    /* border: solid 2px white; */
     margin: 1rem;
+    color: whitesmoke !important;
     /* margin-left: 2rem;
     margin-top: 2rem; */
+}
+
+.skill_set_skill>img {
+    width: 128px;
+    height: 128px;
 }
 
 /* .part3 {
