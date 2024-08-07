@@ -94,6 +94,7 @@
     color: whitesmoke !important;
     /* margin-left: 2rem;
     margin-top: 2rem; */
+    transition: all 0.4s ease-in-out;
 }
 
 .skill_set_skill>img {
@@ -104,3 +105,63 @@
 /* .part3 {
     height: 30vh;
 } */
+
+
+.skill_set_skill:hover {
+    transform: translateY(-9px);
+}
+
+@media screen and (max-width: 500px) {
+    .part1 {
+        height: fit-content;
+        display: flex;
+        padding-left: 10rem;
+        padding-right: 10rem;
+        /* align-items: center; */
+    }
+
+    .part1_left {
+        flex: 0.6;
+        display: flex;
+        flex-direction: column;
+        color: whitesmoke;
+        font-size: 1.5rem;
+        margin-top: auto;
+        margin-bottom: auto;
+
+    }
+
+    .part1_left>h1 {
+        text-align: center;
+        margin-bottom: 3rem;
+
+    }
+
+    .part1_left>p {
+        font-size: 1.5rem;
+        margin-left: 2rem;
+        padding: 10px;
+    }
+
+    .part1_left_c {
+        display: flex;
+        flex-direction: column;
+        text-align: right;
+    }
+
+    .part1_left_c>span {
+        font-size: 1rem;
+        text-align: right;
+    }
+
+    .part1_right {
+        flex: 0.4;
+        display: flex;
+    }
+
+    .part1_right>img {
+        width: 90%;
+        height: 90%;
+        margin: auto;
+    }
+}
