@@ -15,11 +15,11 @@ function Resume() {
     <div className="resume">
       <h1>My Resume</h1>
       <br />
-      <div className="pdf">
-        <Document file="/resume.pdf">
-          <Page pageNumber={1} />
-        </Document>
-      </div>
+      {/* <div className="pdf"> */}
+      <Document file="/resume.pdf" className="pdf">
+        <Page pageNumber={1} />
+      </Document>
+      {/* </div> */}
       <br />
       <Button variant="contained" color="success">
         <a className="reset-a" href="/resume.pdf" download="SwaroopResume.pdf">
