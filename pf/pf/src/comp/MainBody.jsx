@@ -77,28 +77,28 @@ function MainBody() {
             <Button
               className="soc_icn_icn"
               target="blank"
-              href="https://www.instagram.com/"
+              href="https://www.instagram.com/swaroop_karneddi/"
             >
               <InstagramIcon className="soc_icn_icn_icn" />
             </Button>
             <Button
               className="soc_icn_icn"
               target="blank"
-              href="https://www.instagram.com/"
+              href="https://www.linkedin.com/in/klnswaroop/"
             >
               <LinkedInIcon className="soc_icn_icn_icn" />
             </Button>
             <Button
               className="soc_icn_icn"
               target="blank"
-              href="https://www.instagram.com/"
+              href="https://wa.me/7981438826"
             >
               <WhatsAppIcon className="soc_icn_icn_icn" />
             </Button>
             <Button
               className="soc_icn_icn"
               target="blank"
-              href="https://www.instagram.com/"
+              href="https://github.com/Swaroopkarneddi"
             >
               <GitHubIcon className="soc_icn_icn_icn" />
             </Button>

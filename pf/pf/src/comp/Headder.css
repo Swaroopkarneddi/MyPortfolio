@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=swap');
+
 .header {
     position: sticky;
     top: 0;
@@ -12,6 +15,8 @@
     -webkit-backdrop-filter: blur(6.3px);
     border: 1px solid rgba(255, 255, 255, 0.01);
     z-index: 1;
+    /* font-family: "Cutive Mono", monospace; */
+    font-family: "Edu VIC WA NT Beginner", cursive;
 }
 
 nav {
@@ -22,9 +27,10 @@ nav {
 }
 
 .logo a {
-    font-size: 24px;
+    font-size: 2.4rem;
     font-weight: bold;
-    font-family: "Cutive Mono", monospace;
+    /* font-family: "Cutive Mono", monospace; */
+    font-family: "Edu VIC WA NT Beginner", cursive;
     font-weight: 400;
     color: #fff;
     /* color: #00FF00; */
@@ -35,7 +41,8 @@ nav {
     /* color: #8739fa; */
     color: #00FF00;
     /* color: #0D0D0D; */
-    font-family: "Cutive Mono", monospace;
+    /* font-family: "Cutive Mono", monospace; */
+    font-family: "Edu VIC WA NT Beginner", cursive;
     font-weight: 400;
 }
 
@@ -50,7 +57,8 @@ nav {
     /* color: #8739fa; */
     color: #fff;
     /* color: #0D0D0D; */
-    font-family: "Cutive Mono", monospace;
+    /* font-family: "Cutive Mono", monospace; */
+    font-family: "Edu VIC WA NT Beginner", cursive;
     font-weight: 400;
 }
 
