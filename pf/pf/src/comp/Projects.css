@@ -1,0 +1,18 @@
+.projects {
+    height: fit-content;
+    padding-top: 10vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.projects>h1 {
+    text-align: center;
+}
+
+.project_div {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
