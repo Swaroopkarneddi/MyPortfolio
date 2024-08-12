@@ -3,6 +3,7 @@
     padding-top: 10vh;
     display: flex;
     flex-direction: column;
+    color: white;
 }
 
 .projects>h1 {
@@ -12,9 +13,22 @@
 .project_div {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     justify-content: center;
 }
 
-.project_card {}
+.project_card {
+    width: 400px;
+    height: 500px;
+    border: 2px solid white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 10px;
+}
+
+.project_card>img {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+}
