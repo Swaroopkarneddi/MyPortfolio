@@ -51,11 +51,14 @@
 .part1_right {
     flex: 0.4;
     display: flex;
+    /* width: 90%; */
 }
 
 .part1_right>img {
     width: 90%;
-    height: 90%;
+    min-width: 400px;
+    /* height: 90%; */
+    height: auto;
     margin: auto;
 }
 
@@ -111,7 +114,7 @@
     transform: translateY(-9px);
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1090px) {
     .part1 {
         display: flex;
         flex-direction: column-reverse;
