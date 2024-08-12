@@ -108,7 +108,7 @@ nav {
     .menu {
         flex-direction: column;
         /* background-color: #151418; */
-        background-color: #15141800;
+        /* background-color: #15141800; */
         align-items: start;
         position: absolute;
         top: 70px;
@@ -117,13 +117,14 @@ nav {
         z-index: 1;
         transform: scale(1, 0);
         transform-origin: top;
-        transition: transform 0.3s ease-in-out;
-        box-shadow: rgba(199, 109, 109, 0.15) 1.95px 1.95px 2.6px;
-        background: rgba(255, 255, 255, 0.16);
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-        backdrop-filter: blur(6.3px);
-        -webkit-backdrop-filter: blur(6.3px);
-        border: 1px solid rgba(255, 255, 255, 0.01);
+        transition: transform 0.3s ease-in-out !important;
+        box-shadow: rgba(199, 109, 109, 0.15) 1.95px 1.95px 2.6px !important;
+        background: rgba(255, 255, 255, 0.16) !important;
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+        backdrop-filter: blur(6.3px) !important;
+        -webkit-backdrop-filter: blur(6.3px) !important;
+        border: 1px solid rgba(255, 255, 255, 0.01) !important;
+
     }
 
     .menu a {
