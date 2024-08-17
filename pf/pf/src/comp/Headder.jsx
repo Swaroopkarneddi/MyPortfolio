@@ -6,9 +6,9 @@ function Headder() {
     <header className="header">
       <nav>
         <div className="logo">
-          <a href="index.html">
+          <Link to={"/"}>
             Swaroop.<span>Karneddi</span>
-          </a>
+          </Link>
         </div>
         <input type="checkbox" id="menu-toggle" />
         <label htmlFor="menu-toggle" className="menu-icon">
